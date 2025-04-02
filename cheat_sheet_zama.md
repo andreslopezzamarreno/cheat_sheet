@@ -2,8 +2,6 @@
 
 ## Índice
 - [Programación](#programacion)
-<!--   - [JavaScript](#javascript)
-  - [Python](#python) -->
 - [Atajos de Teclado](#atajos-de-teclado)
   - [Windows](#windows)
   - [VS code](#visual-Studio-Code)
@@ -16,7 +14,6 @@
 ---
 
 ## Programación
-### JavaScript
 ---
 
 ## Atajos de Teclado
