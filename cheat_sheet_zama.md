@@ -6,7 +6,7 @@
   - [Python](#python) -->
 - [Atajos de Teclado](#atajos-de-teclado)
   - [Windows](#windows)
-  - [VS code](#visual Studio Code)
+  - [VS code](#visual-Studio-Code)
 - [Comandos Útiles](#comandos-utiles)
   - [Git](#git)
 - [Tips Variados](#tips-variados)
@@ -24,7 +24,7 @@
 - `Win + D` → Mostrar escritorio
 - `Alt + Tab` → Cambiar ventana
 
-### visual Studio Code
+### Visual Studio Code
 - `ctrl + j`→ ocultar/mostrar consola
 - `shift + alt + a` → comentar/descomentar codigo de colpe (seleccionando texto)
 ---
