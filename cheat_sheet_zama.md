@@ -2,14 +2,13 @@
 
 ## Índice
 - [Programación](#programacion)
-  - [JavaScript](#javascript)
-  - [Python](#python)
+<!--   - [JavaScript](#javascript)
+  - [Python](#python) -->
 - [Atajos de Teclado](#atajos-de-teclado)
   - [Windows](#windows)
-  - [MacOS](#macos)
+  - [VS code](#visual Studio Code)
 - [Comandos Útiles](#comandos-utiles)
   - [Git](#git)
-  - [Linux](#linux)
 - [Tips Variados](#tips-variados)
   - [Crear cualquier web como app Windows](#crear-cualquier-web-como-app-windows)
   - [Ejecutar cualquier script desde el arranque](#ejecutar-cualquier-script-desde-el-arranque)
@@ -18,15 +17,6 @@
 
 ## Programación
 ### JavaScript
-```js
-console.log('Hola Mundo');
-```
-
-### Python
-```python
-print("Hola Mundo")
-```
-
 ---
 
 ## Atajos de Teclado
@@ -34,10 +24,9 @@ print("Hola Mundo")
 - `Win + D` → Mostrar escritorio
 - `Alt + Tab` → Cambiar ventana
 
-### MacOS
-- `Cmd + Space` → Spotlight Search
-- `Cmd + Tab` → Cambiar ventana
-
+### visual Studio Code
+- `ctrl + j`→ ocultar/mostrar consola
+- `shift + alt + a` → comentar/descomentar codigo de colpe (seleccionando texto)
 ---
 
 ## Comandos Útiles
@@ -51,12 +40,6 @@ git commit -m "mensaje"  # Commit con mensaje
 
 #### `.gitignore`
 Ignora absolutamente todo lo que esté listado en este archivo y evita que se suba al repositorio.
-
-### Linux
-```sh
-ls -la   # Listar archivos
-pwd      # Ver ruta actual
-```
 
 ---
 
