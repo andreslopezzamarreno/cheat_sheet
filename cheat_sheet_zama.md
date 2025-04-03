@@ -28,13 +28,66 @@
 
 ## Comandos Útiles
 ### Git
+##### Inicializar y Clonar Repositorios
 ```sh
-git checkout rama  # Cambiar de rama
-git pull  # Actualizar repo local con el remoto
-git push  # Subir repo local al remoto
-git commit -m "mensaje"  # Commit con mensaje
+git clone URL_REPO  # Clonar un repositorio remoto
+git clone URL_REPO nombre_directorio  # Clonar en un directorio específico
 ```
-
+##### Estados y Cambios
+```sh
+git status  # Ver estado de los archivos en el repositorio
+git add archivo  # Agregar archivo al staging area
+git add .  # Agregar TODOS los archivos al staging area
+git reset archivo  # Quitar archivo del staging sin borrar cambios
+git reset --hard  # Eliminar todos los cambios no confirmados
+git diff  # Ver diferencias entre archivos modificados y el último commit
+git diff --staged  # Ver diferencias entre el staging area y el último commit
+```
+##### Commits
+```sh
+git commit -m "Mensaje"  # Guardar cambios con mensaje
+git commit --amend -m "Nuevo mensaje"  # Editar el último commit
+git commit -a -m "Mensaje"  # Hacer commit de todos los cambios rastreados
+```
+##### Ramas
+```sh
+git branch  # Listar ramas
+git branch nueva_rama  # Crear nueva rama
+git checkout rama  # Cambiar de rama
+git checkout -b nueva_rama  # Crear y cambiar a una nueva rama
+git branch -d rama  # Eliminar rama (solo si no tiene cambios sin fusionar)
+git branch -D rama  # Forzar eliminación de rama
+```
+##### Actualizar y Subir Cambios
+```sh
+git pull  # Obtener cambios del remoto y fusionarlos
+git pull --rebase  # Obtener cambios y rebasear
+git push  # Subir cambios al repositorio remoto
+git push -u origin rama  # Subir rama actual y establecer upstream
+```
+##### Fusionar y Rebasear
+```sh
+git merge rama  # Fusionar 'rama' con la actual
+git merge --no-ff rama  # Fusionar sin fast-forward
+git rebase rama  # Reaplicar commits sobre otra rama
+git rebase --abort  # Cancelar un rebase en curso
+git rebase --continue  # Continuar un rebase después de resolver conflictos
+```
+##### Revertir Cambios
+```sh
+git checkout archivo  # Restaurar un archivo modificado al último commit
+git checkout -- .  # Restaurar todos los archivos modificados
+git reset HEAD archivo  # Quitar archivo del staging
+git reset --hard HEAD  # Deshacer todos los cambios locales
+git revert HASH  # Crear un commit que revierte un cambio específico
+```
+##### Historial
+```sh
+git log  # Ver historial de commits
+git log --oneline  # Ver historial resumido
+git log --graph --decorate --oneline --all  # Ver historial con gráfico de ramas
+git show HASH  # Ver detalles de un commit específico
+```
 #### `.gitignore`
 Ignora absolutamente todo lo que esté listado en este archivo y evita que se suba al repositorio.
 
