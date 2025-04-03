@@ -1,4 +1,4 @@
-# 📝 Cheatsheet de Cosas Random
+# 📝 Cheatsheet
 
 ## Índice
 - [Git](#git)
@@ -10,6 +10,7 @@
   - [Crear cualquier web como app Windows](#crear-cualquier-web-como-app-windows)
   - [Ejecutar cualquier script desde el arranque](#ejecutar-cualquier-script-desde-el-arranque)
   - [Enviar libro a ebook por correo](#Enviar-libro-a-ebook-por-correo)
+  - [Sacar @clave](#Sacar-@clave)
 ---
 
 ## Atajos de Teclado
@@ -124,6 +125,7 @@ Ignora absolutamente todo lo que esté listado en este archivo y evita que se su
 3. Pegar en la carpeta que se abre el script
 
 #### Para Python:
+  - por hacer
 1. Crear un acceso directo a un script de PowerShell que lance el archivo `.py`
 2. Guardarlo en la carpeta de inicio (`shell:startup`)
 3. Ejemplo de comando PowerShell:
@@ -131,10 +133,13 @@ Ignora absolutamente todo lo que esté listado en este archivo y evita que se su
 Start-Process python "C:\ruta\a\script.py"
 ```
 ### Enviar libro a ebook por correo
+  - por hacer
 1. Ir a tres puntos configuracion
 2. abajo del todo habra un correo
 3. Enviar correo normal, no hace falta ni concepto ni nada
 4. adjuntar archivo y enviar
 5. esperar un par de minutos hasta que el libro salga en el menu del ebook
 
+### Sacar @clave
+  - por hacer
 ---
