@@ -4,13 +4,16 @@
 - [Git](#git)
 - [Atajos de Teclado](#atajos-de-teclado)
   - [Windows](#windows)
-  - [VS code](#visual-Studio-Code)
+  - [Chrome](#Chrome)
+- [VS code](#visual-Studio-Code)
+    - [Comandos](#Comandos)
     - [Extensiones](#Extensiones-interesantes)
 - [Tips Variados](#tips-variados)
   - [Crear cualquier web como app Windows](#crear-cualquier-web-como-app-windows)
   - [Ejecutar cualquier script desde el arranque](#ejecutar-cualquier-script-desde-el-arranque)
   - [Enviar libro a ebook por correo](#Enviar-libro-a-ebook-por-correo)
   - [Sacar @clave](#Sacar-@clave)
+  - [Descargar todas las fotos de google](#Descargar-todas-las-fotos-de-google)
 ---
 
 ## Atajos de Teclado
@@ -18,17 +21,27 @@
 - `Win + D` → Mostrar escritorio
 - `Alt + Tab` → Cambiar ventana 
 
+### Chrome
+- `ctrl + t` → Abrir nueva ventana
+- `ctrl + w` → Cerrar ventana actual
+- `ctrl + tab` → saltar a ventana de la derecha
+- `ctrl + r` → refrescar
+- `ctrl + l` → Poner foco en la barra de busqueda
+- `boton central` → cerrar ventana (poner raton sobre pestaña que se quiere cerrar)
+---
 
-### Visual Studio Code
-- `ctrl + j`→ ocultar/mostrar consola
-- `shift + alt + a` → comentar/descomentar codigo de colpe (seleccionando texto)
-- Autoguardado 
-  - file > preferences > settings
-  - buacar `files.autoSave`
-  - seleccionar `afterDelay`
-- `ctrl + shift + c` → abrir consolar cmd con la ruta de la carpeta 
+## Visual Studio Code
+### Comandos
+  - `ctrl + j`→ ocultar/mostrar consola
+  - `shift + alt + a` → comentar/descomentar codigo de colpe (seleccionando texto)
+  - Autoguardado 
+    - file > preferences > settings
+    - buacar `files.autoSave`
+    - seleccionar `afterDelay`
+  - `ctrl + shift + c` → abrir consolar cmd con la ruta de la carpeta 
+  - `boton central` → cerrar ventana (poner raton sobre pestaña que se quiere cerrar)
 
-  #### Extensiones-interesantes
+### Extensiones-interesantes
   - Markdown Preview Enhanced 
     - `ctrl + shift + v` → abrir preview de markdown
   - Prettier - Code formatter 
@@ -112,6 +125,7 @@ Ignora absolutamente todo lo que esté listado en este archivo y evita que se su
 ---
 
 # Tips Variados
+---
 ### Crear cualquier web como app Windows
 1. Abrir Google Chrome
 2. Ir al sitio que quieras instalar como app
@@ -119,11 +133,12 @@ Ignora absolutamente todo lo que esté listado en este archivo y evita que se su
 4. Seleccionar "Enviar, guardar y compartir"
 5. Click en "Instalar página como aplicación"
 
+---
 ### Ejecutar cualquier script desde el arranque
 1. `Win + R`
 2. Escribir `shell:startup`
 3. Pegar en la carpeta que se abre el script
-
+---
 #### Para Python:
   - por hacer
 1. Crear un acceso directo a un script de PowerShell que lance el archivo `.py`
@@ -132,6 +147,7 @@ Ignora absolutamente todo lo que esté listado en este archivo y evita que se su
 ```powershell
 Start-Process python "C:\ruta\a\script.py"
 ```
+---
 ### Enviar libro a ebook por correo
   - por hacer
 1. Ir a tres puntos configuracion
@@ -139,7 +155,10 @@ Start-Process python "C:\ruta\a\script.py"
 3. Enviar correo normal, no hace falta ni concepto ni nada
 4. adjuntar archivo y enviar
 5. esperar un par de minutos hasta que el libro salga en el menu del ebook
-
+---
 ### Sacar @clave
+  - por hacer
+---
+### Descargar todas las fotos de google
   - por hacer
 ---
