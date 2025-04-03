@@ -113,5 +113,103 @@ Ignora absolutamente todo lo que esté listado en este archivo y evita que se su
 ```powershell
 Start-Process python "C:\ruta\a\script.py"
 ```
+### Enviar libro a ebook por correo
+1. Ir a tres puntos configuracion
+2. abajo del todo habra un correo
+3. Enviar correo normal, no hace falta ni concepto ni nada
+4. adjuntar archivo y enviar
+5. esperar un par de minutos hasta que el libro salga en el menu del ebook
 
+
+
+
+# Markdown Cheat Sheet
+
+## Encabezados
+```markdown
+# Título 1  
+## Título 2  
+### Título 3  
+#### Título 4  
+##### Título 5  
+###### Título 6  
+```
+
+## Énfasis
+```markdown
+**Negrita** o __Negrita__  
+*Cursiva* o _Cursiva_  
+~~Tachado~~  
+```
+
+## Listas
+
+### Listas No Ordenadas
+```markdown
+- Elemento 1  
+- Elemento 2  
+  - Sub-elemento 1  
+  - Sub-elemento 2  
+* Elemento 3  
+```
+
+### Listas Ordenadas
+```markdown
+1. Elemento 1  
+2. Elemento 2  
+   1. Sub-elemento 1  
+   2. Sub-elemento 2  
+3. Elemento 3  
+```
+
+## Citas
+```markdown
+> Esto es una cita  
+>> Esto es una cita anidada  
+```
+
+## Bloques de Código
+```markdown
+`Código en línea`  
+```
+````
+```python
+# Bloque de código
+print("¡Hola, Markdown!")
+```
+````
+
+## Enlaces e Imágenes
+```markdown
+[Texto del enlace](https://ejemplo.com)  
+![Texto alternativo](https://ejemplo.com/imagen.jpg)  
+```
+
+## Tablas
+```markdown
+| Encabezado 1 | Encabezado 2 | Encabezado 3 |
+|--------------|--------------|--------------|
+| Dato 1      | Dato 2      | Dato 3      |
+| Dato 4      | Dato 5      | Dato 6      |
+```
+
+## Líneas Horizontales
+```markdown
+---
+```
+
+## Tareas (Checkboxes)
+```markdown
+- [x] Tarea completada  
+- [ ] Tarea pendiente  
+```
+
+## Emoji (Depende del Renderizado)
+```markdown
+😃 🎉 🚀  
+```
+
+## Atajos Extra
+```markdown
+\<br>   <!-- Salto de línea en algunas plataformas -->  
 ---
