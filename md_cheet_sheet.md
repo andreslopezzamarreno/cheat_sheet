@@ -1,5 +1,5 @@
 - [Markdown Cheat Sheet](#Markdown-Cheat-Sheet)
-- [Encabezados](#Encabezados)
+    - [Encabezados](#Encabezados)
     - [Énfasis](#Énfasis)
     - [Listas No Ordenadas](#Listas-No-Ordenadas)
     - [Listas Ordenadas](#Listas-Ordenadas)
@@ -13,7 +13,7 @@
 
 
 ## Markdown Cheat Sheet
-**Encabezados**
+#### Encabezados
 ```markdown
 # Título 1  
 ## Título 2  
@@ -22,7 +22,7 @@
 ##### Título 5  
 ###### Título 6  
 ```
-**Énfasis**
+#### Énfasis
 Pueden combinarse
 
 ```markdown
@@ -32,7 +32,7 @@ Pueden combinarse
 ```
 Ejemplo:
 Esto es un texto **negro**, _cursivo_ ,~~tachado~~ **_~~negro, tachado y cursivo~~_**
-**Listas No Ordenadas**
+#### Listas No Ordenadas
 ```markdown
 - Elemento 1  
 - Elemento 2  
@@ -40,7 +40,7 @@ Esto es un texto **negro**, _cursivo_ ,~~tachado~~ **_~~negro, tachado y cursivo
   - Sub-elemento 2  
 * Elemento 3  
 ```
-**Listas Ordenadas**
+#### Listas Ordenadas
 ```markdown
 1. Elemento 1  
 2. Elemento 2  
@@ -48,7 +48,7 @@ Esto es un texto **negro**, _cursivo_ ,~~tachado~~ **_~~negro, tachado y cursivo
   2. Sub-elemento 2  
 3. Elemento 3  
 ```
-**Citas**
+#### Citas
 ```markdown
 > Esto es una cita  
 >> Esto es una cita anidada  
@@ -57,7 +57,7 @@ Se ve asi:
 > Esto es una cita
 >> esto es una cita a anidada
 
-**Bloques de Código**
+#### Bloques de Código
 Sustituye "python" por practicamente cualquier lenguanje:
 > javascript, java, c, cpp, csharp, kotlin, typescript, php, bash, html, xml, css, json, yaml, markdown, sql, graphql, powershell, makefile, dockerfile, plantuml
 ````
@@ -71,13 +71,13 @@ Se ve asi:
 # Bloque de código
 print("¡Hola, Markdown!")
 ```
-**Enlaces e Imágenes**
+#### Enlaces e Imágenes
 ```markdown
 [Texto del enlace](https://ejemplo.com)  
 ![Texto alternativo](https://ejemplo.com/imagen.jpg)  
 ![Texto alternativo](imagen.jpg) -> La foto tiene que estar en la carpeta indicada (no se puede copiar y pegar como en word)
 ```
-**Tablas**
+#### Tablas
 ```markdown
 | Encabezado 1 | Encabezado 2 | Encabezado 3 |
 |--------------|--------------|--------------|
@@ -90,11 +90,11 @@ Se ve asi:
 | Dato 1       | Dato 2       | Dato 3       |
 | Dato 4       | Dato 5       | Dato 6       |
 
-**Líneas Horizontales**
+#### Líneas Horizontales
 ```markdown
 ---
 ```
-**Tareas (Checkboxes)**
+#### Tareas (Checkboxes)
 ```markdown
 - [x] Tarea completada  
 - [ ] Tarea pendiente  
