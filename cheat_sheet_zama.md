@@ -1,29 +1,46 @@
 # 📝 Cheatsheet de Cosas Random
 
 ## Índice
-- [Programación](#programacion)
+- [Git](#git)
 - [Atajos de Teclado](#atajos-de-teclado)
   - [Windows](#windows)
   - [VS code](#visual-Studio-Code)
-- [Comandos Útiles](#comandos-utiles)
-  - [Git](#git)
+    - [Extensiones](#Extensiones-interesantes)
 - [Tips Variados](#tips-variados)
   - [Crear cualquier web como app Windows](#crear-cualquier-web-como-app-windows)
   - [Ejecutar cualquier script desde el arranque](#ejecutar-cualquier-script-desde-el-arranque)
-
----
-
-## Programación
+  - [Enviar libro a ebook por correo](#Enviar-libro-a-ebook-por-correo)
 ---
 
 ## Atajos de Teclado
 ### Windows
 - `Win + D` → Mostrar escritorio
-- `Alt + Tab` → Cambiar ventana
+- `Alt + Tab` → Cambiar ventana 
+
 
 ### Visual Studio Code
 - `ctrl + j`→ ocultar/mostrar consola
 - `shift + alt + a` → comentar/descomentar codigo de colpe (seleccionando texto)
+- Autoguardado 
+  - file > preferences > settings
+  - buacar `files.autoSave`
+  - seleccionar `afterDelay`
+- `ctrl + shift + c` → abrir consolar cmd con la ruta de la carpeta 
+
+  #### Extensiones-interesantes
+  - Markdown Preview Enhanced 
+    - `ctrl + shift + v` → abrir preview de markdown
+  - Prettier - Code formatter 
+  - Rainbow CSV 
+    - Coloreado de un CSV
+  - GitLens — Git supercharged
+  - Excel Viewer 
+    - Visor de excel en VSCode
+  - Commit Message Editor
+    - para mensajes de commit standard
+  - SQLite Viewer 
+    - visor de BBDD sql
+
 ---
 
 ## Comandos Útiles
@@ -93,7 +110,7 @@ Ignora absolutamente todo lo que esté listado en este archivo y evita que se su
 
 ---
 
-## Tips Variados
+# Tips Variados
 ### Crear cualquier web como app Windows
 1. Abrir Google Chrome
 2. Ir al sitio que quieras instalar como app
@@ -120,96 +137,4 @@ Start-Process python "C:\ruta\a\script.py"
 4. adjuntar archivo y enviar
 5. esperar un par de minutos hasta que el libro salga en el menu del ebook
 
-
-
-
-# Markdown Cheat Sheet
-
-## Encabezados
-```markdown
-# Título 1  
-## Título 2  
-### Título 3  
-#### Título 4  
-##### Título 5  
-###### Título 6  
-```
-
-## Énfasis
-```markdown
-**Negrita** o __Negrita__  
-*Cursiva* o _Cursiva_  
-~~Tachado~~  
-```
-
-## Listas
-
-### Listas No Ordenadas
-```markdown
-- Elemento 1  
-- Elemento 2  
-  - Sub-elemento 1  
-  - Sub-elemento 2  
-* Elemento 3  
-```
-
-### Listas Ordenadas
-```markdown
-1. Elemento 1  
-2. Elemento 2  
-   1. Sub-elemento 1  
-   2. Sub-elemento 2  
-3. Elemento 3  
-```
-
-## Citas
-```markdown
-> Esto es una cita  
->> Esto es una cita anidada  
-```
-
-## Bloques de Código
-```markdown
-`Código en línea`  
-```
-````
-```python
-# Bloque de código
-print("¡Hola, Markdown!")
-```
-````
-
-## Enlaces e Imágenes
-```markdown
-[Texto del enlace](https://ejemplo.com)  
-![Texto alternativo](https://ejemplo.com/imagen.jpg)  
-```
-
-## Tablas
-```markdown
-| Encabezado 1 | Encabezado 2 | Encabezado 3 |
-|--------------|--------------|--------------|
-| Dato 1      | Dato 2      | Dato 3      |
-| Dato 4      | Dato 5      | Dato 6      |
-```
-
-## Líneas Horizontales
-```markdown
----
-```
-
-## Tareas (Checkboxes)
-```markdown
-- [x] Tarea completada  
-- [ ] Tarea pendiente  
-```
-
-## Emoji (Depende del Renderizado)
-```markdown
-😃 🎉 🚀  
-```
-
-## Atajos Extra
-```markdown
-\<br>   <!-- Salto de línea en algunas plataformas -->  
 ---
