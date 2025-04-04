@@ -76,5 +76,5 @@
   ```ruby
   ?noapp=1
   ``` 
-  - enlace ya directo [youtube](https://www.youtube.com/?noapp=1)
+  - enlace directo → [Youtube](https://www.youtube.com/?noapp=1)
   - Los anuncios se desactivan automáticamente y puedes ver el video sin interrupciones.
