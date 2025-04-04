@@ -10,7 +10,7 @@
     - [Comandos](#Comandos)
     - [Extensiones](#Extensiones-interesantes)
 - [Ejecutar cualquier script desde el arranque](#ejecutar-cualquier-script-desde-el-arranque)
-
+- [Encender el portatil remotamente](#Encender el portatil remotamente)
 ---
 
 ## Atajos de Teclado
@@ -20,6 +20,7 @@
 - `win + m` → minimiza todas las ventanas
 - `win + p` → configuracion pantallas
 - `alt + f4` o `ctrl + alt + f4` → Cerrar aplicacion actual 
+- `Win + Shift + S` → Captura de pantalla 
 
 
 ### Chrome
@@ -140,7 +141,7 @@ Ignora absolutamente todo lo que esté listado en este archivo y evita que se su
 1. `Win + R`
 2. Escribir `shell:startup`
 3. Pegar en la carpeta que se abre el script
----
+
 #### Para Python:
   - por hacer
 1. Crear un acceso directo a un script de PowerShell que lance el archivo `.py`
@@ -149,3 +150,13 @@ Ignora absolutamente todo lo que esté listado en este archivo y evita que se su
 ```powershell
 Start-Process python "C:\ruta\a\script.py"
 ```
+
+---
+
+## Encender el portatil remotamente
+Requisitos:
+- wake on LAN disponible en el ordenador
+- Cable de red siempre conectado
+- Otro ordenador en casa siempre conectado (servidor local, raspberry, ordenador antiguo...)
+
+por hacer
