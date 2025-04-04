@@ -11,7 +11,7 @@
   - [Crear cuenta de google sin numero de telefono](#Crear-cuenta-de-google-sin-numero-de-telefono)
   - [Grabar pantalla sin programas (Windows)](#Grabar-pantalla-sin-programas-(Windows))
   - [Borrar fondo de una imagen fácilmente](#Borrar-fondo-de-una-imagen-fácilmente)
-  - [Desactivar los anuncios de anuncios de Google en YouTube (sin pagar)](#Desactivar-los-anuncios-de-anuncios-de-Google-en-YouTube-sin-pagar)
+  - [Desactivar los anuncios en YouTube sin pagar y sin apps)](#Desactivar-los-anuncios-en-YouTube-sin-pagar-y-sin-apps)
 ---     
 
 ##  Crear cualquier web como app Windows
@@ -70,10 +70,11 @@
 
   ---
 
-  ## Desactivar los anuncios de anuncios de Google en YouTube sin pagar
+  ## Desactivar los anuncios en YouTube sin pagar y sin apps
   - Abre YouTube.
   - Copia y pega el siguiente texto en la barra de direcciones justo después de "youtube.com/":
   ```ruby
   ?noapp=1
   ``` 
+  - enlace ya directo [youtube](https://www.youtube.com/?noapp=1)
   - Los anuncios se desactivan automáticamente y puedes ver el video sin interrupciones.
