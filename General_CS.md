@@ -1,7 +1,6 @@
 # Cheat Sheet General
 
----
----
+<hr style="height:4px; background-color:black; border:none;" />
 
 # Indice
   - [Crear cualquier web como app Windows](#crear-cualquier-web-como-app-windows)
@@ -14,7 +13,7 @@
   - [Desactivar los anuncios en YouTube sin pagar y sin apps)](#Desactivar-los-anuncios-en-YouTube-sin-pagar-y-sin-apps)
   - [Desbloquear el modo oscuro en todas las webs](#desbloquear-el-modo-oscuro-en-todas-las-webs)
 
----     
+<hr style="height:4px; background-color:black; border:none;" />
 
 ##  Crear cualquier web como app Windows
 1. Abrir Google Chrome
@@ -23,7 +22,7 @@
 4. Seleccionar `Enviar, guardar y compartir`
 5. Click en `Instalar página como aplicación`
 
----
+--- 
 
 ## Enviar libro a ebook por correo
   - por hacer

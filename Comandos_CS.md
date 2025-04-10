@@ -1,8 +1,6 @@
 # 📝 Cheatsheet
 
----
-
----
+<hr style="height:4px; background-color:black; border:none;" />
 
 ## Índice
 
@@ -18,7 +16,7 @@
 - [Raspberry Pi](#Raspberry-Pi)
 - [Significado de Siglas/Acronimos y sus definiciones](#Significado-de-Siglas/Acronimos-y-sus-definiciones)
 
----
+<hr style="height:4px; background-color:black; border:none;" />
 
 ## Atajos de Teclado
 
@@ -42,7 +40,8 @@
 - `ctrl + <numero>` → ir a pestaña que se le indique
 - `shift + alt + b` → ocultar/mostrar marcadores
 
----
+<hr style="height:4px; background-color:black; border:none;" />
+
 
 ## Visual Studio Code
 
@@ -74,7 +73,7 @@
 - SQLite Viewer
   - visor de BBDD sql
 
----
+<hr style="height:4px; background-color:black; border:none;" />
 
 ## Comandos Útiles
 
@@ -169,7 +168,7 @@ git commit -a -m "Mensaje" && git push #Add, commit y push todo en un comando
 
 Ignora absolutamente todo lo que esté listado en este archivo y evita que se suba al repositorio.
 
----
+<hr style="height:4px; background-color:black; border:none;" />
 
 ## Ejecutar cualquier script desde el arranque
 
@@ -189,7 +188,7 @@ Ignora absolutamente todo lo que esté listado en este archivo y evita que se su
 Start-Process python "C:\ruta\a\script.py"
 ```
 
----
+<hr style="height:4px; background-color:black; border:none;" />
 
 ## Encender el portatil remotamente
 
@@ -201,7 +200,7 @@ Requisitos:
 
 por hacer
 
----
+<hr style="height:4px; background-color:black; border:none;" />
 
 ## Raspberry Pi
 
@@ -222,7 +221,8 @@ por hacer
   
 ### Encender el ordenador desde fuera de casa
   - usar WOL (wake on lan ) -> no disponible en mi ordenador
----
+
+<hr style="height:4px; background-color:black; border:none;" />
 
 ## Significado de Siglas/Acronimos y sus definiciones
 
@@ -273,4 +273,4 @@ por hacer
   - ¿Para qué sirve?
     FTP es un protocolo utilizado para transferir archivos entre un servidor y un cliente a través de una red, como Internet. Permite subir o descargar archivos de manera eficiente y es muy utilizado en la administración de sitios web o en la compartición de grandes volúmenes de datos. FTP puede usar conexiones no cifradas (FTP) o cifradas (FTPS).
 
----
+<hr style="height:4px; background-color:black; border:none;" />
