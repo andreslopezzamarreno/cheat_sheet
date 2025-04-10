@@ -1,6 +1,6 @@
 # 📝 Cheatsheet
 
-<hr style="height:7px; background-color:black; border:none;" />
+<hr style="height:15px; background-color:black;" />
 
 ## Índice
 
