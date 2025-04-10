@@ -13,14 +13,15 @@
   - [Borrar fondo de una imagen fácilmente](#Borrar-fondo-de-una-imagen-fácilmente)
   - [Desactivar los anuncios en YouTube sin pagar y sin apps)](#Desactivar-los-anuncios-en-YouTube-sin-pagar-y-sin-apps)
   - [Desbloquear el modo oscuro en todas las webs](#desbloquear-el-modo-oscuro-en-todas-las-webs)
+  
 ---     
 
 ##  Crear cualquier web como app Windows
 1. Abrir Google Chrome
 2. Ir al sitio que quieras instalar como app
 3. Clic en los tres puntos del menú
-4. Seleccionar "Enviar, guardar y compartir"
-5. Click en "Instalar página como aplicación"
+4. Seleccionar `Enviar, guardar y compartir`
+5. Click en `Instalar página como aplicación`
 
 ---
 
@@ -57,7 +58,7 @@
   --- 
 
   ## Grabar pantalla sin programas (Windows)
-  - Presioná Win + G para abrir la barra de juegos.
+  - Presioná `Win + G` para abrir la barra de juegos.
   - Click en el botón de grabar.
   - Graba la pantalla del juego o ventana activa.
 
