@@ -74,21 +74,23 @@
   ## Desactivar los anuncios en YouTube sin pagar y sin apps
   - Abre YouTube.
   - Copia y pega el siguiente texto en la barra de direcciones justo después de "youtube.com/":
-  ```ruby
-  ?noapp=1
-  ``` 
+    ```ruby
+    ?noapp=1
+    ``` 
   - enlace directo → [Youtube](https://www.youtube.com/?noapp=1)
   - Los anuncios se desactivan automáticamente y puedes ver el video sin interrupciones.
+
+  ---
 
   ## Desbloquear el modo oscuro en todas las webs
   - Si usas Google Chrome, hay una forma de forzar el modo oscuro en todas las aplicaciones web de Google.
   - En la barra de direcciones de Chrome busca:
     ```
-      chrome://flags
+    chrome://flags
     ```
   - Busca y activa
     ```
-      Auto Dark Mode for Web Contents
+    Auto Dark Mode for Web Contents
     ```
   - Esto activará el modo oscuro en casi todas las aplicaciones de Google, incluso en aquellas que no lo tienen de forma nativa, como Gmail y Google Docs.
   - Aviso: Alguna web puede verse mal 
