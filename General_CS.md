@@ -12,6 +12,7 @@
   - [Grabar pantalla sin programas (Windows)](#Grabar-pantalla-sin-programas-(Windows))
   - [Borrar fondo de una imagen fácilmente](#Borrar-fondo-de-una-imagen-fácilmente)
   - [Desactivar los anuncios en YouTube sin pagar y sin apps)](#Desactivar-los-anuncios-en-YouTube-sin-pagar-y-sin-apps)
+  - [Desbloquear el modo oscuro en todas las webs](#desbloquear-el-modo-oscuro-en-todas-las-webs)
 ---     
 
 ##  Crear cualquier web como app Windows
@@ -79,9 +80,15 @@
   - enlace directo → [Youtube](https://www.youtube.com/?noapp=1)
   - Los anuncios se desactivan automáticamente y puedes ver el video sin interrupciones.
 
-  ## Desbloquear el modo oscuro en todas las aplicaciones de Google
+  ## Desbloquear el modo oscuro en todas las webs
   - Si usas Google Chrome, hay una forma de forzar el modo oscuro en todas las aplicaciones web de Google.
-  - Abre `chrome://flags` en la barra de direcciones de Chrome.
-  - Busca y activa Auto Dark Mode for Web Contents.
+  - En la barra de direcciones de Chrome busca:
+    ```
+      chrome://flags
+    ```
+  - Busca y activa
+   ```
+      Auto Dark Mode for Web Contents
+   ```
   - Esto activará el modo oscuro en casi todas las aplicaciones de Google, incluso en aquellas que no lo tienen de forma nativa, como Gmail y Google Docs.
   - Aviso: Alguna web puede verse mal 
