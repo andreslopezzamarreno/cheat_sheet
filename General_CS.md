@@ -13,7 +13,7 @@
   - [Borrar fondo de una imagen fácilmente](#Borrar-fondo-de-una-imagen-fácilmente)
   - [Desactivar los anuncios en YouTube sin pagar y sin apps)](#Desactivar-los-anuncios-en-YouTube-sin-pagar-y-sin-apps)
   - [Desbloquear el modo oscuro en todas las webs](#desbloquear-el-modo-oscuro-en-todas-las-webs)
-  
+
 ---     
 
 ##  Crear cualquier web como app Windows
@@ -27,7 +27,7 @@
 
 ## Enviar libro a ebook por correo
   - por hacer
-1. Ir a tres puntos configuracion
+1. Ir a `⁝`
 2. abajo del todo habra un correo
 3. Enviar correo normal, no hace falta ni concepto ni nada
 4. adjuntar archivo y enviar
