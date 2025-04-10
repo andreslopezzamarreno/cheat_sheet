@@ -87,8 +87,8 @@
       chrome://flags
     ```
   - Busca y activa
-   ```
+    ```
       Auto Dark Mode for Web Contents
-   ```
+    ```
   - Esto activará el modo oscuro en casi todas las aplicaciones de Google, incluso en aquellas que no lo tienen de forma nativa, como Gmail y Google Docs.
   - Aviso: Alguna web puede verse mal 
