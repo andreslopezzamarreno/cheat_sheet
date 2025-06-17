@@ -15,6 +15,8 @@
 - [Encender el portatil remotamente](#Encender-el-portatil-remotamente)
 - [Raspberry Pi](#Raspberry-Pi)
 - [Significado de Siglas/Acronimos y sus definiciones](#Significado-de-Siglas/Acronimos-y-sus-definiciones)
+- [Automatizar whatsapp con python](#automatizar-whatsapp-con-python)
+- [Docker](#Docker)
 
 ---
 
@@ -22,21 +24,21 @@
 
 ### Windows
 
-- `Win + D` → minimizar todas las ventanas (Mostrar escritorio)
-- `Alt + Tab` → Cambiar ventana
-- `win + m` → minimiza todas las ventanas
-- `win + p` → configuracion pantallas
-- `alt + f4` o `ctrl + alt + f4` → Cerrar aplicacion actual
-- `Win + Shift + S` → Captura de pantalla
+- `Win + D`                       → minimizar todas las ventanas (Mostrar escritorio)
+- `Alt + Tab`                     → Cambiar ventana
+- `win + m`                       → minimiza todas las ventanas
+- `win + p`                       → configuracion pantallas
+- `alt + f4` o `ctrl + alt + f4`  → Cerrar aplicacion actual
+- `Win + Shift + S`               → Captura de pantalla
 
 ### Chrome
 
-- `ctrl + t` → Abrir nueva ventana
-- `ctrl + w` → Cerrar ventana actual
+- `ctrl + t`   → Abrir nueva ventana
+- `ctrl + w`   → Cerrar ventana actual
 - `ctrl + tab` → saltar a ventana de la derecha
-- `ctrl + r` → refrescar
+- `ctrl + r`   → refrescar
 - `ctrl + l` o `Alt + D` → Poner foco en la barra de busqueda
-- `boton central` → cerrar ventana (poner raton sobre pestaña que se quiere cerrar)
+- `boton central`   → cerrar ventana (poner raton sobre pestaña que se quiere cerrar)
 - `ctrl + <numero>` → ir a pestaña que se le indique
 - `shift + alt + b` → ocultar/mostrar marcadores
 
@@ -45,33 +47,33 @@
 
 ## Visual Studio Code
 
-### Comandos
+  ### Comandos
 
-- `ctrl + j`→ ocultar/mostrar consola
-- `shift + alt + a` → comentar/descomentar codigo de colpe (seleccionando texto)
-- Autoguardado
-  - file > preferences > settings
-  - buacar `files.autoSave`
-  - seleccionar `afterDelay`
-- `ctrl + shift + c` → abrir consolar cmd con la ruta de la carpeta
-- `boton central` → cerrar ventana (poner raton sobre pestaña que se quiere cerrar)
-- `ctrl + p` → Abrir buscador de archivos
-- `shift + alt + f` → Formatear al codigo de fo
+  - `ctrl + j`        → ocultar/mostrar consola
+  - `shift + alt + a` → comentar/descomentar codigo de colpe (seleccionando texto)
+  - Autoguardado
+    - file > preferences > settings
+    - buacar `files.autoSave`
+    - seleccionar `afterDelay`
+  - `ctrl + shift + c` → abrir consolar cmd con la ruta de la carpeta
+  - `boton central`    → cerrar ventana (poner raton sobre pestaña que se quiere cerrar)
+  - `ctrl + p`         → Abrir buscador de archivos
+  - `shift + alt + f`  → Formatear al codigo de fo
 
-### Extensiones-interesantes
+  ### Extensiones-interesantes
 
-- Markdown Preview Enhanced
-  - `ctrl + shift + v` → abrir preview de markdown
-- Prettier - Code formatter
-- Rainbow CSV
-  - Coloreado de un CSV
-- GitLens — Git supercharged
-- Excel Viewer
-  - Visor de excel en VSCode
-- Commit Message Editor
-  - para mensajes de commit standard
-- SQLite Viewer
-  - visor de BBDD sql
+  - Markdown Preview Enhanced
+    - `ctrl + shift + v` → abrir preview de markdown
+  - Prettier - Code formatter
+  - Rainbow CSV
+    - Coloreado de un CSV
+  - GitLens — Git supercharged
+  - Excel Viewer
+    - Visor de excel en VSCode
+  - Commit Message Editor
+    - para mensajes de commit standard
+  - SQLite Viewer
+    - visor de BBDD sql
 
 ---
 
@@ -157,11 +159,11 @@ git show HASH  # Ver detalles de un commit específico
 
 ##### Combinar comandos
 
-Usar "&&"
+Usar `;`
 Ejemplo:
 
 ```sh
-git commit -a -m "Mensaje" && git push #Add, commit y push todo en un comando
+git add .; git commit -m "actualizacion cheat sheet"; git push #Add, commit y push todo en un comando
 ```
 
 #### `.gitignore`
@@ -172,56 +174,57 @@ Ignora absolutamente todo lo que esté listado en este archivo y evita que se su
 
 ## Ejecutar cualquier script desde el arranque
 
-1. `Win + R`
-2. Escribir `shell:startup`
-3. Pegar en la carpeta que se abre el script
+  1. `Win + R`
+  2. Escribir `shell:startup`
+  3. Pegar en la carpeta que se abre el script
 
-#### Para Python:
+  #### Para Python:
+    - por hacer
 
-- por hacer
+    1. Crear un acceso directo a un script de PowerShell que lance el archivo `.py`
+    2. Guardarlo en la carpeta de inicio (`shell:startup`)
+    3. Ejemplo de comando PowerShell:
 
-1. Crear un acceso directo a un script de PowerShell que lance el archivo `.py`
-2. Guardarlo en la carpeta de inicio (`shell:startup`)
-3. Ejemplo de comando PowerShell:
+    ```powershell
+    Start-Process python "C:\ruta\a\script.py"
+    ```
 
-```powershell
-Start-Process python "C:\ruta\a\script.py"
-```
-
----
+    ---
 
 ## Encender el portatil remotamente
 
-Requisitos:
+  Requisitos:
 
-- wake on LAN disponible en el ordenador
-- Cable de red siempre conectado
-- Otro ordenador en casa siempre conectado (servidor local, raspberry, ordenador antiguo...)
+  - wake on LAN disponible en el ordenador
+  - Cable de red siempre conectado
+  - Otro ordenador en casa siempre conectado (servidor local, raspberry, ordenador antiguo...)
 
-por hacer
+  por hacer
 
 ---
 
 ## Raspberry Pi
+  ### Conectarme por SSH en windows
+    - Conectar raspberry por cable
+    - Instalar putty en windows
+    - usar Fing para escanear tu red local desde el móvil para encontrar ip local
+    - conectarme por putty a esa ip con usaurio y contraseña
 
-### Conectarme por SSH en windows
-  - Conectar raspberry por cable
-  - Instalar putty en windows
-  - usar Fing para escanear tu red local desde el móvil para encontrar ip local
-  - conectarme por putty a esa ip con usaurio y contraseña
+  ### Configurar wifi
 
-### Configurar wifi
+  ### Instalar docker en Raspberry pi
 
-### Instalar docker en Raspberry pi
+  ### Crear contenedor docker
 
-### Crear contenedor docker
-
-### Crear vpn con Raspberry
-  - instalar WireGuard en el movil
+  ### Crear vpn con Raspberry
+    - instalar WireGuard en el movil
+    
+  ### Encender el ordenador desde fuera de casa
+    - usar WOL (wake on lan ) -> no disponible en mi ordenador
   
-### Encender el ordenador desde fuera de casa
-  - usar WOL (wake on lan ) -> no disponible en mi ordenador
-
+  ### Comandos
+    - Reiniciar raspberry
+    - 
 ---
 
 ## Significado de Siglas/Acronimos y sus definiciones
@@ -274,3 +277,138 @@ por hacer
     FTP es un protocolo utilizado para transferir archivos entre un servidor y un cliente a través de una red, como Internet. Permite subir o descargar archivos de manera eficiente y es muy utilizado en la administración de sitios web o en la compartición de grandes volúmenes de datos. FTP puede usar conexiones no cifradas (FTP) o cifradas (FTPS).
 
 ---
+
+
+## Automatizar whatsapp con python
+
+  ### A tu propio numero
+    - mejor opcion  Callmebot
+    - [Call me bot api](https://www.callmebot.com/blog/free-api-whatsapp-messages/)
+    - Ejemplo en github [enlace github]()
+
+    ### A otro numero/grupo
+      - Ultramsg
+      - Ejemplo en 
+
+## Tener copia de google fotos en local
+
+  ### Google takeout
+    - Ir a [Google takeout](https://takeout.google.com/)
+    - Dale a desmarcar todo, y baja hasta encontrar google fotos y selecciona.
+    - Puedes seleccionar todo lo que quieras descargar
+    - baja hasta abajo del todo y dale `siguiente paso`
+    - `Destino` → `Enviar enlace de descarga por correo electronico`
+    - `Frecuencia` → `Exportar cada 2 meses durante 1 año` o `Exportar una vez` si solo quieres una vez
+    - `Tipo y tamaño de archivo` → `.ZIP` y el tamaño da un poco igual
+    - Darle a `Crear exportacion`
+    Esto hace que cada dos meses llegue un correo con los enlaces para descargarlo localmente
+
+  ### Automatizar la descarga local
+    - Pasos para hacerlo en una raspberry pero realmente se puede hacer en cualquier parte
+    - pasos en [Repo G-Fotos](https://github.com/andreslopezzamarreno/automatizacion-fotos)
+
+---
+
+## Docker
+
+  ### Conceptos básicos
+
+  - **Docker** permite crear, desplegar y ejecutar aplicaciones en contenedores ligeros y portables.
+  - Un **contenedor** es una instancia de una imagen que se ejecuta de forma aislada.
+  - Una **imagen** es una plantilla inmutable con todo lo necesario para ejecutar una aplicación.
+
+---
+
+  ### Comandos útiles de Docker
+
+  - **Ver versión de Docker instalada**
+    ```sh
+    docker --version
+    ```
+
+  - **Listar contenedores**
+    - Activos:  
+      ```sh
+      docker ps
+      ```
+    - Todos (incluidos detenidos):  
+      ```sh
+      docker ps -a
+      ```
+
+  - **Listar imágenes**
+    ```sh
+    docker images
+    ```
+
+  - **Descargar una imagen**
+    ```sh
+    docker pull nombre_imagen
+    ```
+
+  - **Crear y ejecutar un contenedor**
+    ```sh
+    docker run -d --name mi_contenedor -p 8080:80 nombre_imagen
+    ```
+    - `-d`: modo "detached" (en segundo plano)
+    - `--name`: nombre personalizado
+    - `-p`: mapea puertos (host:contenedor)
+
+  - **Entrar en un contenedor en ejecución**
+    ```sh
+    docker exec -it mi_contenedor bash
+    ```
+
+  - **Detener un contenedor**
+    ```sh
+    docker stop mi_contenedor
+    ```
+
+  - **Eliminar un contenedor**
+    ```sh
+    docker rm mi_contenedor
+    ```
+
+  - **Eliminar una imagen**
+    ```sh
+    docker rmi nombre_imagen
+    ```
+
+  - **Ver logs de un contenedor**
+    ```sh
+    docker logs mi_contenedor
+    ```
+
+  - **Construir una imagen desde un Dockerfile**
+    ```sh
+    docker build -t mi_imagen .
+    ```
+
+  - **Copiar archivos entre host y contenedor**
+    - Del host al contenedor:
+      ```sh
+      docker cp archivo.txt mi_contenedor:/ruta/destino/
+      ```
+    - Del contenedor al host:
+      ```sh
+      docker cp mi_contenedor:/ruta/origen/archivo.txt ./
+      ```
+
+  - **Limpiar recursos no usados**
+    ```sh
+    docker system prune
+    ```
+
+---
+
+  ### Notas útiles
+
+  - Para ver información detallada de un contenedor:
+    ```sh
+    docker inspect mi_contenedor
+    ```
+  - Para ver el uso de espacio:
+    ```sh
+    docker system df
+    ```
+  - Puedes usar `docker-compose` para gestionar varios contenedores con un solo archivo `docker-
