@@ -17,8 +17,7 @@
 - [Significado de Siglas/Acronimos y sus definiciones](#Significado-de-Siglas/Acronimos-y-sus-definiciones)
 - [Automatizar whatsapp con python](#automatizar-whatsapp-con-python)
 - [Docker](#Docker)
-- [Automatizar whatsapp con python](#automatizar-whatsapp-con-python)
-- [Docker](#Docker)
+- [WSL](#WSL)
 
 ---
 
@@ -207,14 +206,10 @@ Ignora absolutamente todo lo que esté listado en este archivo y evita que se su
   2. Escribir `shell:startup`
   3. Pegar en la carpeta que se abre el script
 
-  #### Para Python:
-    - por hacer
-  #### Para Python:
+  #### Para 
+  Python:
     - por hacer
 
-    1. Crear un acceso directo a un script de PowerShell que lance el archivo `.py`
-    2. Guardarlo en la carpeta de inicio (`shell:startup`)
-    3. Ejemplo de comando PowerShell:
     1. Crear un acceso directo a un script de PowerShell que lance el archivo `.py`
     2. Guardarlo en la carpeta de inicio (`shell:startup`)
     3. Ejemplo de comando PowerShell:
@@ -222,12 +217,7 @@ Ignora absolutamente todo lo que esté listado en este archivo y evita que se su
     ```powershell
     Start-Process python "C:\ruta\a\script.py"
     ```
-    ```powershell
-    Start-Process python "C:\ruta\a\script.py"
-    ```
-
-    ---
-    ---
+  
 
 ## Encender el portatil remotamente
 
@@ -591,3 +581,93 @@ Ignora absolutamente todo lo que esté listado en este archivo y evita que se su
     docker system df
     ```
   - Puedes usar `docker-compose` para gestionar varios contenedores con un solo archivo `docker-
+
+## WSL
+  - apagar wsl desde cmd --> wsl --shutdown
+  - cd ~ -> ir a directorio raiz
+
+---
+
+## Comandos TOP Windows (que nadie conoce)
+
+### Abrir aplicaciones desde CMD/PowerShell
+- `code .` → Abrir VS Code en la carpeta actual
+- `notepad archivo.txt` → Crear y abrir archivo en Notepad
+- `start .` → Abrir explorador en la carpeta actual
+- `explorer .` → Igual que start pero más directo
+- `calc` → Abrir calculadora
+- `mspaint` → Abrir Paint
+- `winver` → Ver versión de Windows
+- `msinfo32` → Información completa del sistema
+- `dxdiag` → Diagnóstico DirectX
+
+### Comandos desde "Ejecutar" (Win + R)
+- `shell:startup` → Carpeta de inicio automático
+- `shell:sendto` → Carpeta "Enviar a"
+- `shell:recent` → Archivos recientes
+- `shell:downloads` → Carpeta de descargas
+- `%temp%` → Carpeta temporal (para limpiar)
+- `%appdata%` → Datos de aplicaciones
+- `cleanmgr` → Limpiador de disco
+- `resmon` → Monitor de recursos avanzado
+- `perfmon` → Monitor de rendimiento
+- `devmgmt.msc` → Administrador de dispositivos
+
+### Atajos de teclado secretos
+- `Win + V` → Historial del portapapeles (si está habilitado)
+- `Win + .` → Panel de emojis 😊
+- `Win + ;` → Panel de emojis (alternativo)
+- `Win + H` → Dictado por voz
+- `Win + Ctrl + D` → Crear escritorio virtual nuevo
+- `Win + Ctrl + F4` → Cerrar escritorio virtual actual
+- `Win + Ctrl + ←/→` → Cambiar entre escritorios virtuales
+- `Alt + F4` → Cerrar ventana actual
+- `Win + I` → Configuración de Windows
+- `Win + X` → Menú de herramientas de administración
+- `Win + G` → Xbox Game Bar (grabar pantalla)
+- `Win + K` → Conectar dispositivos inalámbricos
+- `Win + U` → Centro de accesibilidad
+
+### Comandos avanzados CMD/PowerShell
+- `ipconfig /all` → Información completa de red
+- `ipconfig /flushdns` → Limpiar caché DNS
+- `sfc /scannow` → Escanear archivos del sistema
+- `chkdsk C: /f` → Verificar disco duro (requiere reinicio)
+- `tasklist` → Ver todos los procesos
+- `taskkill /im proceso.exe /f` → Matar proceso por nombre
+- `systeminfo` → Información detallada del sistema
+- `netstat -an` → Ver conexiones de red activas
+- `powercfg /batteryreport` → Reporte de batería (laptops)
+- `tree` → Mostrar estructura de carpetas en árbol
+
+### Trucos del explorador de archivos
+- Escribir en la barra de direcciones:
+  - `cmd` → Abrir CMD en esa carpeta
+  - `powershell` → Abrir PowerShell en esa carpeta
+  - `wt` → Abrir Windows Terminal (si está instalado)
+- `F2` → Renombrar archivo seleccionado
+- `F5` → Actualizar carpeta
+- `Ctrl + Shift + N` → Nueva carpeta
+- `Alt + ↑` → Subir un nivel de carpeta
+- `Ctrl + L` → Seleccionar barra de direcciones
+
+### Comandos para gestión de archivos
+- `attrib +h archivo.txt` → Ocultar archivo
+- `attrib -h archivo.txt` → Mostrar archivo oculto
+- `copy con archivo.txt` → Crear archivo desde CMD (Ctrl+Z para terminar)
+- `type archivo.txt` → Mostrar contenido de archivo
+- `dir /ah` → Mostrar solo archivos ocultos
+- `xcopy origen destino /s /e` → Copiar carpetas completas
+
+### Comandos de red súper útiles
+- `ping google.com` → Probar conexión
+- `nslookup google.com` → Resolver DNS
+- `tracert google.com` → Trazar ruta de red
+- `netsh wlan show profiles` → Ver redes WiFi guardadas
+- `netsh wlan show profile "NOMBRE_RED" key=clear` → Ver contraseña WiFi guardada
+
+### Trucos con fechas y hora
+- `date /t` → Mostrar fecha actual
+- `time /t` → Mostrar hora actual
+- `echo %date%` → Mostrar fecha en variable
+- `echo %time%` → Mostrar hora en variable
