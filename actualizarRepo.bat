@@ -7,5 +7,5 @@ git commit -m "actualizar"
 git push
 
 echo.
-echo ✅ Proceso completado.
+echo Proceso completado.
 pause
