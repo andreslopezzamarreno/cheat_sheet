@@ -8,4 +8,3 @@ git push
 
 echo.
 echo Proceso completado.
-pause
